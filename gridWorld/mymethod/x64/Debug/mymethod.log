@@ -1,0 +1,34 @@
+﻿已經開始建置於 2017/4/5 下午 01:16:37。
+     1>節點 2 (Build 目標) 上的專案 "F:\trajCubeClusCppPublish\gridWorldCpp0105\mymethod\mymethod.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt lib.cpp Source.cpp
+         Source.cpp
+     1>Source.cpp(46): warning C4267: '正在初始化' : 將 'size_t' 轉換為 'int'，資料可能遺失
+     1>Source.cpp(49): warning C4018: '<' : signed/unsigned 不相符
+     1>Source.cpp(5): warning C4101: 't7' : 未參考的區域變數
+     1>Source.cpp(5): warning C4101: 't6' : 未參考的區域變數
+     1>Source.cpp(5): warning C4101: 't5' : 未參考的區域變數
+         lib.cpp
+     1>lib.cpp(146): warning C4267: '正在初始化' : 將 'size_t' 轉換為 'int'，資料可能遺失
+     1>lib.cpp(198): warning C4267: '正在初始化' : 將 'size_t' 轉換為 'int'，資料可能遺失
+     1>lib.cpp(196): warning C4101: 't2' : 未參考的區域變數
+     1>lib.cpp(196): warning C4101: 't3' : 未參考的區域變數
+     1>lib.cpp(196): warning C4101: 't1' : 未參考的區域變數
+     1>lib.cpp(196): warning C4101: 't4' : 未參考的區域變數
+     1>lib.cpp(196): warning C4101: 't' : 未參考的區域變數
+     1>lib.cpp(240): warning C4267: '正在初始化' : 將 'size_t' 轉換為 'int'，資料可能遺失
+     1>lib.cpp(231): warning C4101: 'aTraj2' : 未參考的區域變數
+     1>lib.cpp(234): warning C4101: 'temp' : 未參考的區域變數
+     1>lib.cpp(233): warning C4101: 't2' : 未參考的區域變數
+     1>lib.cpp(233): warning C4101: 't3' : 未參考的區域變數
+     1>lib.cpp(233): warning C4101: 't4' : 未參考的區域變數
+         正在產生程式碼...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\trajCubeClusCppPublish\gridWorldCpp0105\x64\Debug\mymethod.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\trajCubeClusCppPublish\gridWorldCpp0105\x64\Debug\mymethod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\trajCubeClusCppPublish\gridWorldCpp0105\x64\Debug\mymethod.lib" /MACHINE:X64 x64\Debug\lib.obj
+         x64\Debug\Source.obj
+         mymethod.vcxproj -> F:\trajCubeClusCppPublish\gridWorldCpp0105\x64\Debug\mymethod.exe
+     1>專案 "F:\trajCubeClusCppPublish\gridWorldCpp0105\mymethod\mymethod.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.67

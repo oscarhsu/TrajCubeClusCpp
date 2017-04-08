@@ -1,0 +1,19 @@
+﻿已經開始建置於 2017/4/6 下午 04:53:39。
+     1>節點 2 (Rebuild 目標) 上的專案 "F:\trajCubeClusCppPublish\trajCubeClus\mymethod\mymethod.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lib.cpp Source.cpp
+         lib.cpp
+         Source.cpp
+     1>Source.cpp(35): warning C4018: '<' : signed/unsigned 不相符
+     1>lib.cpp(233): warning C4018: '<' : signed/unsigned 不相符
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\trajCubeClusCppPublish\trajCubeClus\Release\mymethod.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\trajCubeClusCppPublish\trajCubeClus\Release\mymethod.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\trajCubeClusCppPublish\trajCubeClus\Release\mymethod.lib" /MACHINE:X86 /SAFESEH Release\lib.obj
+         Release\Source.obj
+         正在產生程式碼
+         已完成程式碼產生
+         mymethod.vcxproj -> F:\trajCubeClusCppPublish\trajCubeClus\Release\mymethod.exe
+     1>專案 "F:\trajCubeClusCppPublish\trajCubeClus\mymethod\mymethod.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.45
